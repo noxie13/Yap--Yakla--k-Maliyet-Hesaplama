@@ -1,0 +1,108 @@
+html {
+    background-color: aqua;
+    height: 100%;
+}
+
+#container {
+    height: 1000px;
+    width: 350px;
+    background-color: burlywood;
+
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    grid-template-rows: 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 70px 70px 70px 70px 25px;
+    grid-template-areas: 
+    ". metrekare-bilgisi"
+    "btn btn"  
+    ". betonarme-betonu"
+    ". betonarme-demiri"
+    ". kalıp"
+    ". kalıp-iskelesi"
+    ". iş-iskelesi"
+    ". tuğla-duvar"
+    ". iç-sıva"
+    ". dış-sıva"
+    ". tavan-sıvası"
+    ". badana-iç"
+    ". fayans-seramik"
+    ". ahşap-yapı"
+    ". ahşap-pencere"
+    ". yağlı-boya"
+    ". ahşap-çatı"
+    ". metal-örtü"
+    ". mozaik-döşeme"
+    ". cam";
+    
+    margin: 0 auto;
+    border: 5px solid #88b169;
+    padding: 25px;
+}
+
+#metrekare_bilgisi {
+    grid-area: metrekare-bilgisi;
+}
+#betonarme_betonu {
+    grid-area: betonarme-betonu;
+}
+#betonarme_demiri {
+    grid-area: betonarme-demiri;
+}
+#kalıp {
+    grid-area: kalıp;
+}
+#kalıp_iskelesi {
+    grid-area: kalıp-iskelesi;
+}
+#iş_iskelesi {
+    grid-area: iş-iskelesi;
+}
+#tuğla_duvar {
+    grid-area: tuğla-duvar;
+}
+#iç_sıva {
+    grid-area: iç-sıva;
+}
+#dış_sıva {
+    grid-area: dış-sıva;
+}
+#tavan_sıvası {
+    grid-area: tavan-sıvası;
+}
+#badana_iç {
+    grid-area: badana-iç;
+}
+#fayans_seramik {
+    grid-area: fayans-seramik;
+}
+#ahşap_yapı {
+    grid-area: ahşap-yapı;
+}
+#ahşap_pencere {
+    grid-area: ahşap-pencere;
+}
+#yağlı_boya {
+    grid-area: yağlı-boya;
+}
+#ahşap_çatı {
+    grid-area: ahşap-çatı;
+}
+#metal_örtü {
+    grid-area: metal-örtü;
+}
+#mozaik_döşeme {
+    grid-area: mozaik-döşeme;
+}
+#cam {
+    grid-area: cam;
+}
+
+.input-syling {
+    height: 25px;
+    width: 250px;
+}
+
+#btn {
+    grid-area: btn;
+    height: 25px;
+    width: auto;
+}
